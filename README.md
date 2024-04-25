@@ -9,7 +9,7 @@ Let's say that the "Jackpot" is 50 of something (dollars, euros...) and you want
 
 How to do that?
 
-For example, here is a Python code.
+For example, here is a Python code [Complete Python code](GUI_jack_pot.py)
 
 With the help of the Python "random choices()" method, 2 procedures can be used:
 1. when 2 lists of symbols are used (here we are using words instead of symbols) one of which is incomplete (there is no one "7" so "Jackpot" cannot happen at all)
