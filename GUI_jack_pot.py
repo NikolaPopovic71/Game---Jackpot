@@ -3,7 +3,7 @@ import random
 
 
 root = tk.Tk()
-root.title("Welcome to Jack Pot world")
+root.title("Welcome to Jackpot world")
 root.geometry("350x280")
 
 
@@ -43,12 +43,12 @@ def exit_function():
     root.destroy()
 
 
-welcome_label = tk.Label(root, text="Welcome to our Jack Pot application", font=("Helvetica", 12))
+welcome_label = tk.Label(root, text="Welcome to our Jackpot application", font=("Helvetica", 12))
 welcome_label.pack(pady=(10, 5))
 
 prize_text = tk.Text(root, height=1, borderwidth=0, font=("Helvetica", 10))
 prize_text.tag_configure("bold_red", font=("Helvetica", 10, "bold"), foreground="red")
-prize_text.insert("1.0", "Jack Pot is an incredible ")
+prize_text.insert("1.0", "Jackpot is an incredible ")
 prize_text.insert(tk.END, "1 million $", "bold_red")
 prize_text.configure(state="disabled", relief="flat")
 prize_text.pack(padx=67, pady=(0, 10))
@@ -69,3 +69,4 @@ exit_button = tk.Button(root, text='Exit', command=exit_function)
 exit_button.pack()
 
 root.mainloop()
+
