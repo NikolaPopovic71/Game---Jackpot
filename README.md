@@ -45,4 +45,4 @@ here one `7` has 25 times less weight than the others (including the remaining t
 > Additional code clarifications:
 > 1. `attempt = 10` this is the value of a chip, of course, it can be changed as desired
 > 2. `if attempt < 100:` this is the amount of money before the slot machine owner doesn't want to pay the player,  **100** can be changed as desired
-> 3. `start_button.config(state=tk.DISABLED)` the game stops in case the "Jackpot" has been won and the button can be used further
+> 3. `start_button.config(state=tk.DISABLED)` the game stops in case the "Jackpot" has been won and the button can not be used further
